@@ -1,0 +1,81 @@
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Lucida Handwriting;
+    font-size: 50px;
+}
+.lamborghini_huracan {
+    margin-left: 16%;
+    border: 7px solid white;
+    width: 1280px;
+    height: 720px;
+}
+.huracan {
+    text-align: center;
+    color: white;
+    font-family: Lucida Handwriting;
+    font-size: 35px;
+    border: 7px solid white;
+    width: 600px;
+    margin-left: 33%;
+    background: orange;
+}
+.lamborghini_aventador {
+    margin-left: 23%;
+    border: 7px solid white;
+    width: 1008px;
+    height: 627px;
+}
+.aventador {
+    text-align: center;
+    color: white;
+    font-family: Lucida Handwriting;
+    font-size: 35px;
+    border: 7px solid white;
+    width: 600px;
+    margin-left: 34%;
+    background: orange;
+}
+.lamborghini_centenario {
+    margin-left: 23%;
+    border: 7px solid white;
+    width: 1024px;
+    height: 682px;
+}
+.centenario {
+    text-align: center;
+    color: white;
+    font-family: Lucida Handwriting;
+    font-size: 35px;
+    border: 7px solid white;
+    width: 600px;
+    margin-left: 34%;
+    background: orange;
+}
+ .background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  background-image: url("https://www.lamborghini.com/en-en/sites/en-en/files/DAM/lamborghini/homepage/slider/performante-video/slider-video-hurcan-performante.jpg");
+  width: 2000px;
+  height: 1500px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  /*margin: 0px 0px 0px 0px;*/
+}
